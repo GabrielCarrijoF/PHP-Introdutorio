@@ -1,10 +1,7 @@
 <?php
 
-    $nome = $_GET['txtNome'];
-    $cidade = $_GET['txtCidade'];
-    $endereco = $_GET['txtEndereco'];
-    $estado = $_GET['txtEstado'];
-    
+   session_start();
+   
 
     echo"<html>
             <h1> Pagina para receber dados informados</h1>
